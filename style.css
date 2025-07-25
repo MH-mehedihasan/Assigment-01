@@ -67,7 +67,8 @@ font-weight: bold;
   line-height: 30px;
 }
 .text-style-1{
-
+font-weight: bold;
+font-size: 40px;
 color:#4E47FF
 }
 .text-style-2{
@@ -119,7 +120,7 @@ main{
 .section-style-2{
   background-color:#615cf334;
   text-align: center;
-  padding: 40px;
+  padding: 30px;
   border-radius: 20px;
   margin-top: 70px;
 
@@ -144,7 +145,6 @@ main{
 .section-style-4{
   background-color: rgb(255, 255, 255);
 
-  /* margin:50px; */
   text-align: center;  
   display: inline;  
  }
