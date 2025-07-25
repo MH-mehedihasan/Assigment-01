@@ -90,6 +90,7 @@ main{
 }
 
 /* section-1 */
+
 .section-size-1{
   /* padding:50px 50px; */
   border-radius: 10px;
@@ -131,28 +132,29 @@ main{
   font-size: 60px;
   font-weight: bolder;
 }
-.p-height-2{
+
 
 
 /* section-03 */
 /* not included */
-}
 
 
  
 /* section-04 */
 .section-style-4{
-  margin:10px;
   background-color: rgb(255, 255, 255);
+
+  /* margin:50px; */
   text-align: center;  
-  gap: 20px;  
+  display: inline;  
  }
 
+
+
  .image-size-4{
-  max-width: 700px;
-  max-height: 400px;
-  border-radius: 10px;
- 
+  max-width: 800px;
+  max-height: 250px;
+  border-radius: 10px; 
  }
 
 
@@ -161,17 +163,39 @@ main{
 .section-style-5{
   display: flex;
   justify-content: space-around;
+  margin-top: 70px;
 }
 
 .h2-section-5{
-  text-align: center;
-  justify-content: center;
+  font-weight: bold;
+  font-size: 60px;
 
 }
 
 .section-text-5{
   text-align: start;
+  font-weight: medium;
+  font-size: 14px;
 
+}
+.input-style{
+  height: 20px;
+  width: 200px;
+  text-indent: 10px;
+}
+.button-style-5{
+   background-color:#4E47FF;
+   height:28px ;
+   width: 208px;
+   font-weight: bold;
+   color:white;
+   padding:3px 3px;
+   border-radius: 1px;
+   border:none;
+   text-align: center;
+}
+.textarea-size{
+  height:50px;
 }
 
 
@@ -184,8 +208,20 @@ footer{
   padding:40px;
   margin-top: 130px;
   background-color:#ffffff ;
-  
 }
+
+.text-style-5{
+  font-size: 70px;
+  color: #4E47FF;
+
+
+}
+
+
+
+
+
+
 ul {
   display: flex;
   height: 200px;
